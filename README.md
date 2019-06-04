@@ -1,4 +1,10 @@
 # HttpServer
+
+HTTP(Hypertext Tranfer Protocol capacities as a request–response convention in the client–server processing model. A web program, for instance, might be the client and an application running on a PC facilitating a site might be the server.
+HTTP basically has the below functions:
+1- Listen for incoming http requests on a specific TCP socket address (IP address and a port number)
+2- Handle this request and sends a response back to the user.
+
 In order to create a web server in Python 3, you will need to import two modules: http.server and socketserver
 Notice that in Python 2, there was a module named SimpleHTTPServer. This module has been merged into http.server in Python 3.
 
