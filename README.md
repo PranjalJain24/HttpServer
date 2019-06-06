@@ -23,6 +23,8 @@ In order to create a web server in Python 3, you will need to import two modules
 This is a simple HTTP request handler that serves files from the current directory and any of its subdirectories.
 ##### socketserver.TCPServer(("", PORT), Handler)
 To instantiate a TCP Server, we need two things: The TCP address (IP address and a port number) and The handler.
+##### serve_forever() 
+It is a method on the TCPServer instance that starts the server and begins listening and responding to incoming requests.
 ##### $ python httpServer_lib.py
 ##### serving at port 8080
 By doing that, you now have an HTTP server that is listening on any interface at port 8080 waiting for incoming http requests. Open your browser and type localhost:8080 in the address bar.
@@ -43,6 +45,8 @@ Use PUT APIs primarily to update existing resource (if the resource does not exi
 HTTP PATCH requests are to make partial update on a resource. PATCH method is the correct choice for partially updating an existing resource and PUT should only be used if you’re replacing a resource in it's entirety.
 ##### do_DELETE():
 As the name suggests, DELETE APIs are used to delete resources (identified by the Request-URI).
+##### wfile.write()
+It is for writing response body with BaseHTTPRequestHandler.
 ##### $ python httpServer_methods.py [port_number]
 Running this command creates an HTTP server that is listening at the given port waiting for incoming http requests.
 ##### Run in browser http://127.0.0.1:[port_number]/ (Press CTRL+C to quit)
