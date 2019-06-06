@@ -51,12 +51,30 @@ Running this command creates an HTTP server that is listening at the given port 
 The Status-Code element in a server response, is a 3-digit integer where the first digit of the Status-Code defines the class of response and the last two digits do not have any categorization role. There are 5 values for the first digit:
 
 #### 1xx Informational- It means the request has been received and the process is continuing.
-100 Continue    101 Switching Protocols    102 Processing (WebDAV)
+100 Continue    
+101 Switching Protocols    
+102 Processing (WebDAV)
 #### 2xx Success- It means the action was successfully received, understood, and accepted.
-200 OK    201 Created    202 Accepted    203 Non-Authoritative Information    204 No Content    
+200 OK    
+201 Created    
+202 Accepted    
+203 Non-Authoritative Information    
+204 No Content    
 #### 3xx Redirection- It means further action must be taken in order to complete the request.
-300 Multiple Choices    301 Moved Permanently    302 Found    303 See Other    304 Not Modified
+300 Multiple Choices    
+301 Moved Permanently    
+302 Found    
+303 See Other    
+304 Not Modified
 #### 4xx Client Error- It means the request contains incorrect syntax or cannot be fulfilled.
-400 Bad Request    401 Unauthorized    402 Payment Required    403 Forbidden    404 Not Found    409 Conflict
+400 Bad Request    
+401 Unauthorized    
+402 Payment Required    
+403 Forbidden    
+404 Not Found    
+409 Conflict
 #### 5xx Server Error- It means the server failed to fulfill an apparently valid request.
-500 Internal Server Error    501 Not Implemented    502 Bad Gateway    503 Service Unavailable
+500 Internal Server Error    
+501 Not Implemented    
+502 Bad Gateway    
+503 Service Unavailable
