@@ -78,4 +78,5 @@ The Status-Code element in a server response, is a 3-digit integer where the fir
 501 Not Implemented    
 502 Bad Gateway    
 503 Service Unavailable
-[TO GET THE DESCRIPTION OF THESE STATUS CODES CLICK HERE](https://www.restapitutorial.com/httpstatuscodes.html)
+
+[TO GET THE DESCRIPTION ON THESE STATUS CODES CLICK HERE](https://www.restapitutorial.com/httpstatuscodes.html)
